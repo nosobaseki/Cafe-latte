@@ -1,0 +1,159 @@
+* {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+    }
+body{ background-color:#fff;
+     height: 100%;
+     font-family: 'Indie Flower', cursive;
+
+}
+h1 {
+  /* text-align: center; */
+  font-family: 'Indie Flower', cursive;
+  color:#fff;
+  font-size: 4.5rem;
+  text-align: center;
+  margin-bottom: 150px;
+
+}
+h2{
+  font-family: 'Indie Flower', cursive;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 10%;
+  padding-bottom: 20%;
+
+}
+h3{
+  font-family: 'Indie Flower', cursive;
+  color:#daa592;
+  font-size: 1.5rem;
+}
+
+h4{
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 100px;
+}
+footer{
+  background-color: #daa592;
+
+}
+li{
+  display: flex;
+
+  font-size: 2.5rem;
+  margin-left:30px;
+  text-align: center;
+
+}
+.hero {
+  background-image: url("images/shop.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* height: 100%; */
+  padding: 25%;
+  position: relative;
+  opacity: 0.8;
+}
+.hero-text{
+  font-size: 2rem;
+  padding-top: 10px;
+  position: relative;
+  top:2000px;
+  text-align: center;
+}
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 10%;
+  padding-bottom: 10%;
+  margin-left: 8%;
+
+}
+.icon {
+  margin-top: 20%;
+  color: #daa592;
+}
+.text{
+  color:#c36a2d;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1rem;
+}
+.coffee{
+  padding-top: 20px;
+}
+.coffe-para{
+  padding-top:10px;
+}
+.pastry{
+  padding-top: 22px;
+}
+.music{
+  padding-top: 15px;
+}
+.drink{
+  padding-top: 20px;
+}
+.second-flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color:
+  color:white;
+}
+.menu-size{
+ height:380px;
+ width:10%;
+}
+.item-one-text{
+  height:300px;
+  width:280px;
+
+}
+a {
+  position: relative;
+  top:100px;
+}
+.menu{
+  /* background-color: black; */
+  /* color:white; */
+}
+.third-flex{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+ul {
+  text-decoration-style: none;
+
+}
+.bloc-space{
+  margin-bottom: 100px;
+}
+.foot{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.black{
+  color:black;
+}
+.flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: absolute;
+  top:20px;
+  bottom: 20px;
+
+  color:white;
+}
